@@ -1,6 +1,8 @@
-from flask_sqlalchemy import SQLALchemy
+from flask import Flask
+from Flask_SQLAlchemy import SQLAlchemy
 
 
+app = Flask(__name__)
 
 boostrap = Boostrap 
 
