@@ -4,10 +4,10 @@ from Flask_SQLAlchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-boostrap = Boostrap 
+boostrap = Boostrap()
 
 
-db = SQLALchemy
+db = SQLALchemy()
 
 
 def create_app(config_name):
